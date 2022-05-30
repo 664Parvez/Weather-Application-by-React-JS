@@ -1,0 +1,57 @@
+*{
+  color: #ffffff;
+}
+#country_name {
+  margin-top: 20px;
+}
+#degree{
+  font-size: 80px;
+}
+#degree_number{
+  font-size: 120px;
+}
+#forecast_img {
+  height: auto;
+  width: 70px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 425px) {
+  #country_name {
+    margin-top: 10px;
+    font-size: 35px;
+  }
+  #degree_number {
+    font-size: 100px;
+  }
+  #forecast_img {
+    height: auto;
+    width: 60px;
+  }
+  #degree {
+    font-size: 70px;
+  }
+}
+
+.cold_weather_background {
+  background-image: linear-gradient(to bottom, rgba(41, 41, 41, 0.52), rgba(35, 50, 134, 0.73)), url('./Components/img/snow.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hot_weather_background {
+  background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0.52), rgba(192, 67, 62, 0.73)), url('./Components/img/sunny.webp');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloudy_weather_background{
+  background-image: linear-gradient(to bottom, rgba(56, 56, 56, 0.52), rgba(30, 39, 90, 0.801)), url('./Components/img/cloudy.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
